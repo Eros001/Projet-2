@@ -37,11 +37,11 @@ Ce programme n’est pas définitif et peut être modifié en fonction des envies des
 **Projet** : Une version dynamique du site de présentation de votre association  
 
 
-**Séance 4**  
-**Date** : 13/11  
-**Titre** : Guide de survie lexical en territoire tech  
-**Résumé** : Ce cours sera une introduction à l’univers tech, afin de vous expliquer comment la tech marche et que dire quand un dev vous parle du backend  
-**Projet** : aucun  
++**Séance 4**  
++**Date** : 13/11  
++**Titre** : Guide de survie lexical en territoire tech  
++**Résumé** : Ce cours sera une introduction à l’univers tech, afin de vous expliquer comment la tech marche et que dire quand un dev vous parle du backend  
++**Projet** : aucun  
 
 
 **Objectif du cours**  
@@ -49,20 +49,20 @@ Le cours a pour but principal de faire découvrir le monde des sites webs et de l
 
 
 **À la fin, les étudiants seront capables de** :  
-Concevoir une page web avec HTML  
-Lui mettre de la mise en page avec CSS  
-Insérer des animations avec JavaScript  
-Le rendre adaptatif au mobile avec Bootstrap  
-Manipuler l’écran noir du terminal  
-Mettre son code en ligne et travailler à plusieurs sur un projet avec Github  
-Mettre en ligne son site internet  
-Découvrir le monde merveilleux du jargon de l’informatique  
+  - Concevoir une page web avec HTML  
+  - Lui mettre de la mise en page avec CSS  
+  - Insérer des animations avec JavaScript  
+  - Le rendre adaptatif au mobile avec Bootstrap  
+  - Manipuler l’écran noir du terminal  
+  - Mettre son code en ligne et travailler à plusieurs sur un    projet avec Github  
+  - Mettre en ligne son site internet  
+  - Découvrir le monde merveilleux du jargon de l’informatique  
 
 **De plus, avec la pédagogie de l’éducation de pairs, les étudiants seront capables de** :  
-S’expliquer mutuellement des concepts compliqués  
-Travailler en équipe sur les projets d’entreprise
-Rechercher la bonne information   
-Assimiler rapidement des bases théoriques pour les appliquer dans des projets  
+  - S’expliquer mutuellement des concepts compliqués  
+  - Travailler en équipe sur les projets d’entreprise
+  - Rechercher la bonne information   
+  - Assimiler rapidement des bases théoriques pour les appliquer dans des projets  
 
 
 **Exemple de projet**  
@@ -82,8 +82,8 @@ Le cours est conçu pour des élèves français ; mais le monde de l’informatique ét
 Pour le cours, vous aurez besoin d’un ordinateur.  
 
 **Voici les différents logiciels à installer** :  
-Un terminal
-Déjà installé sur macOS et Linux  
-[Cygwin](https://www.cygwin.com/) sur Windows  
-Un éditeur de texte  
-[Sublime Text](https://www.sublimetext.com/) ou [Visual Studio Code](https://code.visualstudio.com/)  
+- Un terminal
+  - Déjà installé sur macOS et Linux  
+  - [Cygwin](https://www.cygwin.com/) sur Windows  
+- Un éditeur de texte  
+  - [Sublime Text](https://www.sublimetext.com/) ou [Visual Studio Code](https://code.visualstudio.com/)  
