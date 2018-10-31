@@ -25,8 +25,8 @@ Ce programme n’est pas définitif et peut être modifié en fonction des envies des
 
 -**Séance 2**  
 -**Date** : 09/10  
--**Titre** : HTML / CSS : Faire son premier site, et le mettre en ligne pour en faire profiter la terre
--**Résumé** : Vous allez apprendre les bases de HTML / CSS, puis vous saurez comment mettre un site en ligne  
+-**Titre** : HTML / CSS : Faire son premier site, et le mettre en ligne pour en faire profiter la terre  
+-**Résumé** : Vous allez apprendre les bases de HTML / CSS, puis vous saurez comment mettre un site en ligne    
 -**Projet** : Réaliser la page de présentation de votre association puis la mettre en ligne  
 
 
