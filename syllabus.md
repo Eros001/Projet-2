@@ -8,12 +8,12 @@ ______________________________________________________________
 · **Enseignant** : Félix Gaudé pour le cours, vous-mêmes pour les projets  
 
 
-### **Description du cours**    
+### **Description du cours**      
 Avec [The Hacking Project](https://www.thehackingproject.org/), devenez un boucanier et découvrez les bases de l’informatique pour lancer votre site Internet !
-Vous allez travailler ensemble en petits groupes, et découvrir l’écran noir avec des projets concrets, l’apprentissage en communauté, et l’entraide entre élèves.  
+Vous allez travailler ensemble en petits groupes, et découvrir l’écran noir avec des projets concrets, l’apprentissage en communauté, et l’entraide entre élèves.    
 
-### **Programme et calendrier du cours**    
-Ce programme n’est pas définitif et peut être modifié en fonction des envies des élèves.
+### **Programme et calendrier du cours**      
+Ce programme n’est pas définitif et peut être modifié en fonction des envies des élèves.  
 
 
 -**Séance 1**  
@@ -44,8 +44,8 @@ Ce programme n’est pas définitif et peut être modifié en fonction des envies des
 -**Projet** : aucun  
 
 
-### **Objectif du cours**    
-Le cours a pour but principal de faire découvrir le monde des sites webs et de l’informatique.  
+### **Objectif du cours**      
+Le cours a pour but principal de faire découvrir le monde des sites webs et de l’informatique.    
 
 
 **À la fin, les étudiants seront capables de** :  
@@ -65,21 +65,21 @@ Le cours a pour but principal de faire découvrir le monde des sites webs et de l
   - Assimiler rapidement des bases théoriques pour les appliquer dans des projets  
 
 
-### **Exemple de projet**    
-Réaliser à plusieurs un site internet au format landing page pour présenter une idée de startup et le mettre en ligne.  
+### **Exemple de projet**        
+Réaliser à plusieurs un site internet au format landing page pour présenter une idée de startup et le mettre en ligne.      
 
 
-### **Bibliographie succincte**    
+### **Bibliographie succincte**        
 Chacon, Scott :[ Straub, Ben. Pro Git. Apress. 2014. 456 pages](https://www.apress.com/us/book/9781484200773)  
 Hartl, Michael : [Learn Enough Command Line to Be Dangerous: A tutorial introduction to the Unix command line. Softcover. 2016. 85 pages.](https://www.learnenough.com/command-line-tutorial)  
-Nebra, Mathieu: [Réalisez votre site web avec HTML 5 et CSS 3. OpenClassrooms. 2017. 306 pages.](https://www.amazon.fr/R%C3%A9alisez-votre-site-avec-HTML5/dp/2953527885)  
+Nebra, Mathieu: [Réalisez votre site web avec HTML 5 et CSS 3. OpenClassrooms. 2017. 306 pages.](https://www.amazon.fr/R%C3%A9alisez-votre-site-avec-HTML5/dp/2953527885)      
 
 
-### **Langue d’enseignement**    
-Le cours est conçu pour des élèves français ; mais le monde de l’informatique étant majoritairement anglo-saxon, il y aura un peu d’anglais dans les ressources.  
+### **Langue d’enseignement**        
+Le cours est conçu pour des élèves français ; mais le monde de l’informatique étant majoritairement anglo-saxon, il y aura un peu d’anglais dans les ressources.      
 
-### **Matériel**    
-Pour le cours, vous aurez besoin d’un ordinateur.  
+### **Matériel**      
+Pour le cours, vous aurez besoin d’un ordinateur.      
 
 **Voici les différents logiciels à installer** :  
 - Un terminal
