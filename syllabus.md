@@ -16,32 +16,32 @@ Vous allez travailler ensemble en petits groupes, et découvrir l’écran noir avec
 Ce programme n’est pas définitif et peut être modifié en fonction des envies des élèves.
 
 
--**Séance 1**  
--**Date** : 25/09  
--**Titre** : Découverte de l’écran noir pour se sentir comme un hacker  
--**Résumé** : Vous allez découvrir le terminal, ainsi que Git, un superbe outil pour travailler en équipe. Puis vous allez découvrir GitHub, l’un des sites les plus importants quand on est développeur  
--**Projet** : Faire un projet à plusieurs et le mettre sur [GitHub](https://github.com/)  
+- **Séance 1**  
+- **Date** : 25/09  
+- **Titre** : Découverte de l’écran noir pour se sentir comme un hacker  
+- **Résumé** : Vous allez découvrir le terminal, ainsi que Git, un superbe outil pour travailler en équipe. Puis vous allez découvrir GitHub, l’un des sites les plus importants quand on est développeur  
+- **Projet** : Faire un projet à plusieurs et le mettre sur [GitHub](https://github.com/)  
 
 
--**Séance 2**  
--**Date** : 09/10  
--**Titre** : HTML / CSS : Faire son premier site, et le mettre en ligne pour en faire profiter la terre
+- **Séance 2**  
+- **Date** : 09/10  
+- **Titre** : HTML / CSS : Faire son premier site, et le mettre en ligne pour en faire profiter la terre
 -**Résumé** : Vous allez apprendre les bases de HTML / CSS, puis vous saurez comment mettre un site en ligne  
 -**Projet** : Réaliser la page de présentation de votre association puis la mettre en ligne  
 
 
--**Séance 3**  
--**Date** : 23/10  
--**Titre** : JavaScript, ou comment ajouter des explosion à votre site  
--**Résumé** : Nous allons reprendre le projet de page de présentation de votre association et y ajouter du JavaScript afin de le rendre dynamique.  
--**Projet** : Une version dynamique du site de présentation de votre association  
+- **Séance 3**  
+- **Date** : 23/10  
+- **Titre** : JavaScript, ou comment ajouter des explosion à votre site  
+- **Résumé** : Nous allons reprendre le projet de page de présentation de votre association et y ajouter du JavaScript afin de le rendre dynamique.  
+- **Projet** : Une version dynamique du site de présentation de votre association  
 
 
--**Séance 4**  
--**Date** : 13/11  
--**Titre** : Guide de survie lexical en territoire tech  
--**Résumé** : Ce cours sera une introduction à l’univers tech, afin de vous expliquer comment la tech marche et que dire quand un dev vous parle du backend  
--**Projet** : aucun  
+- **Séance 4**  
+- **Date** : 13/11  
+- **Titre** : Guide de survie lexical en territoire tech  
+- **Résumé** : Ce cours sera une introduction à l’univers tech, afin de vous expliquer comment la tech marche et que dire quand un dev vous parle du backend  
+- **Projet** : aucun  
 
 
 **Objectif du cours**  
