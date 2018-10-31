@@ -1,3 +1,5 @@
+![](https://avatars2.githubusercontent.com/u/25484553?s=200&v=4)
+
 **_Ce document permet d'avoir une description complète du Dossier Cours_**
 
 
