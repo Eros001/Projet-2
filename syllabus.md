@@ -8,11 +8,12 @@
 
 
 **Description du cours**
-Avec The Hacking Project, devenez un boucanier et découvrez les bases de l’informatique pour lancer votre site Internet !
+Avec [The Hacking Project](https://www.thehackingproject.org/), devenez un boucanier et découvrez les bases de l’informatique pour lancer votre site Internet !
 Vous allez travailler ensemble en petits groupes, et découvrir l’écran noir avec des projets concrets, l’apprentissage en communauté, et l’entraide entre élèves.
 
 **Programme et calendrier du cours**
 Ce programme n’est pas définitif et peut être modifié en fonction des envies des élèves.
+
 
 **Séance 1**
 
@@ -20,9 +21,10 @@ Ce programme n’est pas définitif et peut être modifié en fonction des envies des
 
 **Titre** : Découverte de l’écran noir pour se sentir comme un hacker
 
-Résumé : Vous allez découvrir le terminal, ainsi que Git, un superbe outil pour travailler en équipe. Puis vous allez découvrir GitHub, l’un des sites les plus importants quand on est développeur
+**Résumé** : Vous allez découvrir le terminal, ainsi que Git, un superbe outil pour travailler en équipe. Puis vous allez découvrir GitHub, l’un des sites les plus importants quand on est développeur
 
-**Projet** : Faire un projet à plusieurs et le mettre sur GitHub
+**Projet** : Faire un projet à plusieurs et le mettre sur [GitHub](https://github.com/)
+
 
 **Séance 2**
 
@@ -30,9 +32,10 @@ Résumé : Vous allez découvrir le terminal, ainsi que Git, un superbe outil pour 
 
 **Titre** : HTML / CSS : Faire son premier site, et le mettre en ligne pour en faire profiter la terre
 
-Résumé : Vous allez apprendre les bases de HTML / CSS, puis vous saurez comment mettre un site en ligne
+**Résumé** : Vous allez apprendre les bases de HTML / CSS, puis vous saurez comment mettre un site en ligne
 
 **Projet** : Réaliser la page de présentation de votre association puis la mettre en ligne
+
 
 
 **Séance 3**
@@ -43,7 +46,8 @@ Résumé : Vous allez apprendre les bases de HTML / CSS, puis vous saurez comment 
 
 **Résumé** : Nous allons reprendre le projet de page de présentation de votre association et y ajouter du JavaScript afin de le rendre dynamique.
 
-Projet : Une version dynamique du site de présentation de votre association
+**Projet** : Une version dynamique du site de présentation de votre association
+
 
 
 **Séance 4**
