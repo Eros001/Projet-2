@@ -3,16 +3,16 @@ ______________________________________________________________
 
 
 
-· **Intitulé de la formation** : Initiation au code pour créer son propre site web
-· Volume horaire : 8h de cours + 15h de projets
-· Enseignant : Félix Gaudé pour le cours, vous-mêmes pour les projets
+· **Intitulé de la formation** : Initiation au code pour créer son propre site web  
+· **Volume horaire** : 8h de cours + 15h de projets  
+· **Enseignant** : Félix Gaudé pour le cours, vous-mêmes pour les projets  
 
 
-**Description du cours**
+**Description du cours**  
 Avec [The Hacking Project](https://www.thehackingproject.org/), devenez un boucanier et découvrez les bases de l’informatique pour lancer votre site Internet !
-Vous allez travailler ensemble en petits groupes, et découvrir l’écran noir avec des projets concrets, l’apprentissage en communauté, et l’entraide entre élèves.
+Vous allez travailler ensemble en petits groupes, et découvrir l’écran noir avec des projets concrets, l’apprentissage en communauté, et l’entraide entre élèves.  
 
-**Programme et calendrier du cours**
+**Programme et calendrier du cours**  
 Ce programme n’est pas définitif et peut être modifié en fonction des envies des élèves.
 
 
