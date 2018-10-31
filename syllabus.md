@@ -48,51 +48,42 @@ Ce programme n’est pas définitif et peut être modifié en fonction des envies des
 Le cours a pour but principal de faire découvrir le monde des sites webs et de l’informatique.  
 
 
-**À la fin, les étudiants seront capables de** : 
+**À la fin, les étudiants seront capables de** :  
+Concevoir une page web avec HTML  
+Lui mettre de la mise en page avec CSS  
+Insérer des animations avec JavaScript  
+Le rendre adaptatif au mobile avec Bootstrap  
+Manipuler l’écran noir du terminal  
+Mettre son code en ligne et travailler à plusieurs sur un projet avec Github  
+Mettre en ligne son site internet  
+Découvrir le monde merveilleux du jargon de l’informatique  
 
-Concevoir une page web avec HTML
-Lui mettre de la mise en page avec CSS
-Insérer des animations avec JavaScript
-Le rendre adaptatif au mobile avec Bootstrap
-Manipuler l’écran noir du terminal
-Mettre son code en ligne et travailler à plusieurs sur un projet avec Github
-Mettre en ligne son site internet
-Découvrir le monde merveilleux du jargon de l’informatique
-
-**De plus, avec la pédagogie de l’éducation de pairs, les étudiants seront capables de** :
-
-S’expliquer mutuellement des concepts compliqués
+**De plus, avec la pédagogie de l’éducation de pairs, les étudiants seront capables de** :  
+S’expliquer mutuellement des concepts compliqués  
 Travailler en équipe sur les projets d’entreprise
-Rechercher la bonne information
-Assimiler rapidement des bases théoriques pour les appliquer dans des projets
+Rechercher la bonne information   
+Assimiler rapidement des bases théoriques pour les appliquer dans des projets  
 
 
-**Exemple de projet**
-
-Réaliser à plusieurs un site internet au format landing page pour présenter une idée de startup et le mettre en ligne.
-
-
-**Bibliographie succincte**
-
-Chacon, Scott :[ Straub, Ben. Pro Git. Apress. 2014. 456 pages](https://www.apress.com/us/book/9781484200773)
-
-Hartl, Michael : [Learn Enough Command Line to Be Dangerous: A tutorial introduction to the Unix command line. Softcover. 2016. 85 pages.](https://www.learnenough.com/command-line-tutorial)
-
-Nebra, Mathieu: [Réalisez votre site web avec HTML 5 et CSS 3. OpenClassrooms. 2017. 306 pages.](https://www.amazon.fr/R%C3%A9alisez-votre-site-avec-HTML5/dp/2953527885)
+**Exemple de projet**  
+Réaliser à plusieurs un site internet au format landing page pour présenter une idée de startup et le mettre en ligne.  
 
 
-**Langue d’enseignement**
+**Bibliographie succincte**  
+Chacon, Scott :[ Straub, Ben. Pro Git. Apress. 2014. 456 pages](https://www.apress.com/us/book/9781484200773)  
+Hartl, Michael : [Learn Enough Command Line to Be Dangerous: A tutorial introduction to the Unix command line. Softcover. 2016. 85 pages.](https://www.learnenough.com/command-line-tutorial)  
+Nebra, Mathieu: [Réalisez votre site web avec HTML 5 et CSS 3. OpenClassrooms. 2017. 306 pages.](https://www.amazon.fr/R%C3%A9alisez-votre-site-avec-HTML5/dp/2953527885)  
 
-Le cours est conçu pour des élèves français ; mais le monde de l’informatique étant majoritairement anglo-saxon, il y aura un peu d’anglais dans les ressources.
 
-**Matériel**
+**Langue d’enseignement**  
+Le cours est conçu pour des élèves français ; mais le monde de l’informatique étant majoritairement anglo-saxon, il y aura un peu d’anglais dans les ressources.  
 
-Pour le cours, vous aurez besoin d’un ordinateur.
+**Matériel**  
+Pour le cours, vous aurez besoin d’un ordinateur.  
 
-**Voici les différents logiciels à installer** :
-
+**Voici les différents logiciels à installer** :  
 Un terminal
-Déjà installé sur macOS et Linux
-[Cygwin](https://www.cygwin.com/) sur Windows
-Un éditeur de texte
-[Sublime Text](https://www.sublimetext.com/) ou [Visual Studio Code](https://code.visualstudio.com/)
+Déjà installé sur macOS et Linux  
+[Cygwin](https://www.cygwin.com/) sur Windows  
+Un éditeur de texte  
+[Sublime Text](https://www.sublimetext.com/) ou [Visual Studio Code](https://code.visualstudio.com/)  
