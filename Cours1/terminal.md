@@ -1,18 +1,18 @@
 ![Partie 1](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSjxkf0cqWbxFyJauz9YShkyIqIlkUosnVY2tuo8rmoCw8LXh8)
 ______________________________________________________________
 
-1. Le terminal
-1.1. Introduction
-Dans cette ressource, tu vas découvrir les bases du terminal, un outil très puissant qui permet de "parler" à son ordinateur. Nous allons voir les bases : comment intéragir avec le terminal, comment jouer avec ses premiers fichiers, et bien d'autres.
+## **1. Le terminal**  
+### **1.1. Introduction**  
+Dans cette ressource, tu vas découvrir les bases du terminal, un outil très puissant qui permet de "parler" à son ordinateur. Nous allons voir les bases : comment intéragir avec le terminal, comment jouer avec ses premiers fichiers, et bien d'autres.    
 
-1.1.1. Ce que tu apprendre dans cette ressource
-Voici la liste des questions auxquelles tu vas pouvoir répondre avec cette ressource :
+#### **1.1.1. Ce que tu apprendre dans cette ressource**  
+Voici la liste des questions auxquelles tu vas pouvoir répondre avec cette ressource :    
 
-Qu'est-ce que le terminal ?
-Que veut dire GUI et CLI ?
-Comment lancer un terminal ?
-Comment exécuter ses premières fonctions avec un terminal ?
-Pourquoi la notion de géographie est très importante dans un terminal ?
+- Qu'est-ce que le terminal ?
+- Que veut dire GUI et CLI ?
+- Comment lancer un terminal ?
+- Comment exécuter ses premières fonctions avec un terminal ?
+- Pourquoi la notion de géographie est très importante dans un terminal ?
 Qu'est-ce que VIM et comment s'en servir ?
 1.2. Historique
 Le terminal est ce que l'on appelle plus communément un interpréteur de commande (ou command-line interpreter (CLI) en anglais), est un outil qui permet d'interpréter les commandes qu'un utilisateur tape au clavier dans l'interface en ligne de commande.
@@ -32,7 +32,7 @@ Le terminal est un outil intimidant aux premiers abords, mais au final se révèle
 Sur Linux : CTRL + ALT + T
 Sur macOS : CMD + SPACE, puis écrire Terminal (ou iTerm), Enter.
 
-?? ALERTE BONNE ASTUCE
+<span style="color:#00FFFF">?? ALERTE BONNE ASTUCE</span>
 Si tu utilises Linux, passe ton terminal en anglais. Quand ce dernier te renverra une erreur, c'est bien mieux qu'elle soit en anglais. L'anglais et la langue d'internet, donc la majorité des gens qui ont eu ton problème vont le poster en anglais. Et ainsi tu auras 100 fois plus de résultats sur Google que si tu postais ton erreur en français.
 
 1.3.3. Premières fonctions ?
