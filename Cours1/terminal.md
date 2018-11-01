@@ -13,50 +13,52 @@ Voici la liste des questions auxquelles tu vas pouvoir répondre avec cette resso
 - Comment lancer un terminal ?
 - Comment exécuter ses premières fonctions avec un terminal ?
 - Pourquoi la notion de géographie est très importante dans un terminal ?
-Qu'est-ce que VIM et comment s'en servir ?
-1.2. Historique
-Le terminal est ce que l'on appelle plus communément un interpréteur de commande (ou command-line interpreter (CLI) en anglais), est un outil qui permet d'interpréter les commandes qu'un utilisateur tape au clavier dans l'interface en ligne de commande.
+- Qu'est-ce que VIM et comment s'en servir ?  
+## **1.2. Historique**  
+Le terminal est ce que l'on appelle plus communément un interpréteur de commande (ou command-line interpreter (CLI) en anglais), est un outil qui permet d'interpréter les commandes qu'un utilisateur tape au clavier dans l'interface en ligne de commande.  
 
 À la base, les ordinateurs tournaient sans interface graphique, donc les utilisateurs passaient exclusivement par les CLI. Avec l'arrivée des systèmes d'exploitation graphiques (Windows, Apple, Linux), le CLI n'a pas perdu en popularité, puisqu'il permet de faire des tâches extrêmement précises.
 
-En gros, c'est une version texte de l'explorateur de fichiers : on peut ouvrir des dossiers, créer des fichiers, les lancer, les renommer, installer des programmes, et bien d'autres choses. On dit que c'est une CLI (Command Line Interface), comparée à la GUI (Graphical User Interface) de l'explorateur normal. Tout est fait via clavier, donc pas besoin de souris dans le terminal.
+En gros, c'est une version texte de l'explorateur de fichiers : on peut ouvrir des dossiers, créer des fichiers, les lancer, les renommer, installer des programmes, et bien d'autres choses. On dit que c'est une **CLI** (Command Line Interface), comparée à la **GUI** (Graphical User Interface) de l'explorateur normal. Tout est fait via clavier, donc pas besoin de souris dans le terminal.
 
-1.3. Le terminal
-1.3.1. Qu'est-ce que le terminal ?
-Le terminal est un outil intimidant aux premiers abords, mais au final se révèle pas compliqué. J'ai réalisé une vidéo qui explique le terminal :
-
-
+## **1.3. Le terminal**  
+### **1.3.1.** Qu'est-ce que le terminal ?
+Le terminal est un outil intimidant aux premiers abords, mais au final se révèle pas compliqué. J'ai réalisé une vidéo qui explique le terminal : [Introduction au terminal](https://www.youtube.com/watch?v=myz_6xrDwR4)
 
 
-1.3.2. Comment le lancer ?
+
+### **1.3.2. Comment le lancer ?**
 Sur Linux : CTRL + ALT + T
 Sur macOS : CMD + SPACE, puis écrire Terminal (ou iTerm), Enter.
 
-<span style="color:#fb4141">?? ALERTE BONNE ASTUCE</span>
+?? **ALERTE BONNE ASTUCE**
 Si tu utilises Linux, passe ton terminal en anglais. Quand ce dernier te renverra une erreur, c'est bien mieux qu'elle soit en anglais. L'anglais et la langue d'internet, donc la majorité des gens qui ont eu ton problème vont le poster en anglais. Et ainsi tu auras 100 fois plus de résultats sur Google que si tu postais ton erreur en français.
 
-1.3.3. Premières fonctions ?
+### **1.3.3. Premières fonctions ?**
 Pour faire marcher le terminal, rien de plus simple : il suffit de rentrer le texte correspondant à la fonction et cela s'exécutera. Par exemple si dans l'explorateur en GUI il suffit de double cliquer sur mon_fichier.txt pour l'ouvrir, il faudra faire dans le terminal open mon_fichier.txt (sur macOS) ou xdg-open mon_fichier.txt (sur Linux) pour l'ouvrir avec le terminal. On va tester avec notre première fonction :
-
+______________________________________________________________
 $ echo "Hello world !"
+______________________________________________________________
 (je commence toutes les commande du terminal avec un $, c'est une convention, et c'est plus facile à reconnaitre comme ceci)
 
-Si tu exécutes cette commande le terminal devrait te renvoyer Hello world ! (cette phrase est un grand classique de la programmation). Et là, tu viens d'exécuter ta première commande de terminal ??
+Si tu exécutes cette commande le terminal devrait te renvoyer Hello world ! ([cette phrase est un grand classique de la programmation](https://fr.wikipedia.org/wiki/Hello_world)). Et là, tu viens d'exécuter ta première commande de terminal ??
 Maintenant nous allons voir les premières commandes de base.
 
-1.3.3.1. PWD
+### **1.3.3.1. PWD**
 pwd est l'acronyme de Print Working Directory, une commande qui affiche le dossier dans lequel tu es actuellement.
-
+______________________________________________________________
 $ pwd
+______________________________________________________________
 Pour moi, pwd me renvoie :
-
+______________________________________________________________
 /Users/felix
+______________________________________________________________
 C'est comme dans l'explorateur en GUI, quand tu double-cliques sur felix, il te déplace dans le dossier felix qui est dans le dossier Users.
 
-?? ALERTE BONNE ASTUCE
+?? **ALERTE BONNE ASTUCE**
 pwd est généralement la première commande que l'on tappe quand on arrive dans le terminal de quelqu'un : c'est idéal pour s'y retrouver ??
 
-1.3.3.2. LS
+### **1.3.3.2. LS**
 ls est le diminutif pour list, cette fonction affiche les fichiers et dossiers qu'il y a dans mon dossier actuel.
 
 $ ls
