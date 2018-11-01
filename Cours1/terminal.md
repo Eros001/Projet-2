@@ -55,27 +55,31 @@ ______________________________________________________________
 ______________________________________________________________
 C'est comme dans l'explorateur en GUI, quand tu double-cliques sur felix, il te déplace dans le dossier felix qui est dans le dossier Users.
 
-**ALERTE BONNE ASTUCE**    https://fr.wikipedia.org/wiki/Hello_world  
+**ALERTE BONNE ASTUCE**    
 pwd est généralement la première commande que l'on tappe quand on arrive dans le terminal de quelqu'un : c'est idéal pour s'y retrouver 
 
 ### **1.3.3.2. LS**
 ls est le diminutif pour list, cette fonction affiche les fichiers et dossiers qu'il y a dans mon dossier actuel.
+______________________________________________________________
+$ ls   
+______________________________________________________________ 
+Pour moi, ls me renvoie :  
 
-$ ls
-Pour moi, ls me renvoie :
-
+______________________________________________________________
 Applications/   Dropbox/     Music/       Desktop/
 Pictures/     Documents/    Library/     Public/
-Downloads/    Movies/
+Downloads/    Movies/  
+______________________________________________________________
 Dans le terminal, nous pouvons donner des options aux fonctions, en faisant $ fonction -option. Par exemple, je peux faire ls -a, ce qui a pour effet d'afficher aussi les fichiers commençant par un . (fichiers de devs en général), ou je peux faire ls -l pour afficher la liste au format long. Et je peux même combiner les deux en faisant ls -al pour afficher aussi les fichiers commençant par un ., tout au format long.
 
-1.3.3.3. MAN
+### **_1.3.3.3. MAN_** 
 man est le diminutif de manual. Man lance un programme qui permet de lire la manuel d'une fonction précise. Pratique pour savoir toutes ses spécificités. Pour s'en servir il suffit de tapper : man fonction. Par exemple pour afficher le manuel de ls, je dois taper :
-
-$ man ls
+______________________________________________________________
+$ man ls  
+______________________________________________________________
 Ce qui m'ouvrira son manuel, qui je peux quitter à tout moment en tapant q.
 
-1.3.4. Où sommes-nous ?
+### **_1.3.4._** Où sommes-nous ?
 Une notion fondamentale pour le terminal : la notion de géographie. Comme dans l'explorateur en GUI, on se déplace de dossiers en dossiers dans le terminal. Si jamais tu veux ouvrir un fichier en tappant open file.txt (sur macOS) ou xdg-open file.txt (sur Linux) et que tu ne te trouves pas dans le bon dossier, le terminal te renverra une erreur. Un peu comme si tu essayais de double-cliquer sur file.txt dans le mauvais dossier : impossible car il n'y est pas.
 
 Tu vas devoir te déplacer donc de dossiers en dossiers pour ouvrir et intéragir avec les bons fichiers.
