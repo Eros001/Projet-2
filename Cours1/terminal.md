@@ -2,10 +2,10 @@
 ______________________________________________________________
 
 ## **1. Le terminal**  
-### **1.1. Introduction**  
+### **_1.1. Introduction_**  
 Dans cette ressource, tu vas découvrir les bases du terminal, un outil très puissant qui permet de "parler" à son ordinateur. Nous allons voir les bases : comment intéragir avec le terminal, comment jouer avec ses premiers fichiers, et bien d'autres.    
 
-#### **1.1.1. Ce que tu apprendre dans cette ressource**  
+#### **_1.1.1._** Ce que tu apprendre dans cette ressource**  
 Voici la liste des questions auxquelles tu vas pouvoir répondre avec cette ressource :    
 
 - Qu'est-ce que le terminal ?
@@ -22,19 +22,19 @@ Le terminal est ce que l'on appelle plus communément un interpréteur de commande
 En gros, c'est une version texte de l'explorateur de fichiers : on peut ouvrir des dossiers, créer des fichiers, les lancer, les renommer, installer des programmes, et bien d'autres choses. On dit que c'est une **CLI** (Command Line Interface), comparée à la **GUI** (Graphical User Interface) de l'explorateur normal. Tout est fait via clavier, donc pas besoin de souris dans le terminal.
 
 ## **1.3. Le terminal**  
-### **1.3.1.** Qu'est-ce que le terminal ?
+### **_1.3.1._** Qu'est-ce que le terminal ?
 Le terminal est un outil intimidant aux premiers abords, mais au final se révèle pas compliqué. J'ai réalisé une vidéo qui explique le terminal : [Introduction au terminal](https://www.youtube.com/watch?v=myz_6xrDwR4)
 
 
 
-### **1.3.2. Comment le lancer ?**
+### **_1.3.2. Comment le lancer ?_**
 Sur Linux : CTRL + ALT + T
 Sur macOS : CMD + SPACE, puis écrire Terminal (ou iTerm), Enter.
 
 **ALERTE BONNE ASTUCE**    
 Si tu utilises Linux, passe ton terminal en anglais. Quand ce dernier te renverra une erreur, c'est bien mieux qu'elle soit en anglais. L'anglais et la langue d'internet, donc la majorité des gens qui ont eu ton problème vont le poster en anglais. Et ainsi tu auras 100 fois plus de résultats sur Google que si tu postais ton erreur en français.
 
-### **1.3.3. Premières fonctions ?**
+### **_1.3.3. Premières fonctions ?_**
 Pour faire marcher le terminal, rien de plus simple : il suffit de rentrer le texte correspondant à la fonction et cela s'exécutera. Par exemple si dans l'explorateur en GUI il suffit de double cliquer sur mon_fichier.txt pour l'ouvrir, il faudra faire dans le terminal open mon_fichier.txt (sur macOS) ou xdg-open mon_fichier.txt (sur Linux) pour l'ouvrir avec le terminal. On va tester avec notre première fonction :
 ______________________________________________________________
 $ echo "Hello world !"
@@ -44,7 +44,7 @@ ______________________________________________________________
 Si tu exécutes cette commande le terminal devrait te renvoyer Hello world ! ([cette phrase est un grand classique de la programmation](https://fr.wikipedia.org/wiki/Hello_world)). Et là, tu viens d'exécuter ta première commande de terminal ??
 Maintenant nous allons voir les premières commandes de base.
 
-### **1.3.3.1. PWD**
+### **_1.3.3.1. PWD_**
 pwd est l'acronyme de Print Working Directory, une commande qui affiche le dossier dans lequel tu es actuellement.
 ______________________________________________________________
 $ pwd
@@ -58,7 +58,7 @@ C'est comme dans l'explorateur en GUI, quand tu double-cliques sur felix, il te 
 **ALERTE BONNE ASTUCE**    
 pwd est généralement la première commande que l'on tappe quand on arrive dans le terminal de quelqu'un : c'est idéal pour s'y retrouver 
 
-### **1.3.3.2. LS**
+### **_1.3.3.2. LS_**
 ls est le diminutif pour list, cette fonction affiche les fichiers et dossiers qu'il y a dans mon dossier actuel.
 ______________________________________________________________
 $ ls   
@@ -80,14 +80,15 @@ ______________________________________________________________
 Ce qui m'ouvrira son manuel, qui je peux quitter à tout moment en tapant q.
 
 ### **_1.3.4._** Où sommes-nous ?
-Une notion fondamentale pour le terminal : la notion de géographie. Comme dans l'explorateur en GUI, on se déplace de dossiers en dossiers dans le terminal. Si jamais tu veux ouvrir un fichier en tappant open file.txt (sur macOS) ou xdg-open file.txt (sur Linux) et que tu ne te trouves pas dans le bon dossier, le terminal te renverra une erreur. Un peu comme si tu essayais de double-cliquer sur file.txt dans le mauvais dossier : impossible car il n'y est pas.
+Une notion **fondamentale** pour le terminal : la notion de géographie. Comme dans l'explorateur en GUI, on se déplace de dossiers en dossiers dans le terminal. Si jamais tu veux ouvrir un fichier en tappant open file.txt (sur macOS) ou xdg-open file.txt (sur Linux) et que tu ne te trouves pas dans le bon dossier, le terminal te renverra une erreur. Un peu comme si tu essayais de double-cliquer sur file.txt dans le mauvais dossier : impossible car il n'y est pas.  
 
-Tu vas devoir te déplacer donc de dossiers en dossiers pour ouvrir et intéragir avec les bons fichiers.
+Tu vas devoir te déplacer donc de dossiers en dossiers pour ouvrir et intéragir avec les bons fichiers.  
 
-1.3.5. CD
-cd est l'acronyme de Change Directory, qui te permet de naviguer entre dossiers. L'équivalent d'un double-clic sur un dossier en quelque sorte ??
-
+### **_1.3.5. CD_**  
+cd est l'acronyme de Change Directory, qui te permet de naviguer entre dossiers. L'équivalent d'un double-clic sur un dossier en quelque sorte  
+______________________________________________________________
 $ cd nomdudossier
+______________________________________________________________
 Tu te déplaceras dans le dossier nommé nomdudossier (s'il existe dans le dossier dans lequel tu te trouves).
 
 Tu peux aussi te déplacer vers le dossier parent en faisant $ cd ..
