@@ -5,7 +5,7 @@ ______________________________________________________________
 ### **_1.1. Introduction_**  
 Dans cette ressource, tu vas découvrir les bases du terminal, un outil très puissant qui permet de "parler" à son ordinateur. Nous allons voir les bases : comment intéragir avec le terminal, comment jouer avec ses premiers fichiers, et bien d'autres.    
 
-#### **_1.1.1._** Ce que tu apprendre dans cette ressource**  
+#### **_1.1.1._**Ce que tu apprendre dans cette ressource**  
 Voici la liste des questions auxquelles tu vas pouvoir répondre avec cette ressource :    
 
 - Qu'est-ce que le terminal ?
@@ -92,11 +92,11 @@ ______________________________________________________________
 Tu te déplaceras dans le dossier nommé nomdudossier (s'il existe dans le dossier dans lequel tu te trouves).  
 Tu peux aussi te déplacer vers le dossier parent en faisant $ cd ..  
 
-**ALERTE BONNE ASTUCE ** 
+**ALERTE BONNE ASTUCE** 
 Utiliser la touche TAB permet de faire de l'autocompletion, très pratique pour cette méthode. Aussi, faire cd + [ESPACE] + TAB + TAB affiche les dossiers disponibles.
 
-### **_1.3.6._** Autres fonctions  
-### **_1.3.6.1._** Créer un fichier  
+### **_1.3.6. Autres fonctions_**  
+### **_1.3.6.1. Créer un fichier_**  
 En tapant :
 ______________________________________________________________
 $ touch nomdufichier  
@@ -104,7 +104,7 @@ ______________________________________________________________
 
 Cela aura pour effet de créer un fichier qui s'appelle nomdufichier  
 
-### **_1.3.6.2._** Copier  
+### **_1.3.6.2.Copier_**
 Pour copier un fichier ou un dossier d'un endroit à un autre, il suffit de rentrer :  
 ______________________________________________________________
 $ cp fichier_à_copier lieu_de_destination  
