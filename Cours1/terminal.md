@@ -1,1 +1,2 @@
-## **Ceci est la premiere partie du cours** lol 
+
+## **Ceci est la premiere partie du cours**
