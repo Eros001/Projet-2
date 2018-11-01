@@ -89,73 +89,82 @@ cd est l'acronyme de Change Directory, qui te permet de naviguer entre dossiers.
 ______________________________________________________________
 $ cd nomdudossier
 ______________________________________________________________
-Tu te déplaceras dans le dossier nommé nomdudossier (s'il existe dans le dossier dans lequel tu te trouves).
+Tu te déplaceras dans le dossier nommé nomdudossier (s'il existe dans le dossier dans lequel tu te trouves).  
+Tu peux aussi te déplacer vers le dossier parent en faisant $ cd ..  
 
-Tu peux aussi te déplacer vers le dossier parent en faisant $ cd ..
-
-?? ALERTE BONNE ASTUCE  
+**ALERTE BONNE ASTUCE ** 
 Utiliser la touche TAB permet de faire de l'autocompletion, très pratique pour cette méthode. Aussi, faire cd + [ESPACE] + TAB + TAB affiche les dossiers disponibles.
 
-1.3.6. Autres fonctions
-1.3.6.1. Créer un fichier
+### **_1.3.6._** Autres fonctions  
+### **_1.3.6.1._** Créer un fichier  
 En tapant :
+______________________________________________________________
+$ touch nomdufichier  
+______________________________________________________________
 
-$ touch nomdufichier
-Cela aura pour effet de créer un fichier qui s'appelle nomdufichier
+Cela aura pour effet de créer un fichier qui s'appelle nomdufichier  
 
-1.3.6.2. Copier
-Pour copier un fichier ou un dossier d'un endroit à un autre, il suffit de rentrer :
+### **_1.3.6.2._** Copier  
+Pour copier un fichier ou un dossier d'un endroit à un autre, il suffit de rentrer :  
+______________________________________________________________
+$ cp fichier_à_copier lieu_de_destination  
+______________________________________________________________
+### **_1.3.6.3. Déplacer_**    
+Pour déplacer (couper) un fichier ou un dossier d'un endroit à un autre, il suffit de rentrer :  
+______________________________________________________________
+mv [fichier_à_déplacer] [lieu_de_destination]  
+______________________________________________________________
 
-$ cp fichier_à_copier lieu_de_destination
-1.3.6.3. Déplacer
-Pour déplacer (couper) un fichier ou un dossier d'un endroit à un autre, il suffit de rentrer :
+**Protip** : mv est très pratique pour renommer un fichier. Imaginons que tu as créé un fichier "hello.rv" au lieu de "hello.rb". Oups, malheur. Heureusement, faire $ mv hello.rv hello.rb résoud ceci en quelques coups de clavier !
 
-mv [fichier_à_déplacer] [lieu_de_destination]
-Protip : mv est très pratique pour renommer un fichier. Imaginons que tu as créé un fichier "hello.rv" au lieu de "hello.rb". Oups, malheur. Heureusement, faire $ mv hello.rv hello.rb résoud ceci en quelques coups de clavier !
+### **_1.3.6.4. Remove_**  
+Supprimer un fichier :  
+______________________________________________________________
+$ rm nomdufichier  
+______________________________________________________________
+Il est possible d'effacer un dossier ainsi que son contenu en ajoutant la récursion en option :  
+______________________________________________________________
+$ rm -r nomdudossier  
+______________________________________________________________
 
-1.3.6.4. Remove
-Supprimer un fichier :
+**INSTANT CULTURE GÉ**  
+rm est à l'origine d'une blague vieille comme le monde. En effet, ajouter l'option -f permet de forcer la suppression d'un fichier, même s'il est important pour l'ordinateur, et finir par / ou * dit à votre ordinateur de prendre absolument tous les fichiers. Ainsi, si tu tapes $ rm -rf / ou $ rm -rf * dans ton terminal, tu dis à ce dernier de tout prendre et de tout effacer, en forçant. Et figure toi que rm est très rapide, et donc effacera l'intégralité de ton ordinateur en quelques secondes à peine. **À ne jamais jamais jamais faire** donc.
 
-$ rm nomdufichier
-Il est possible d'effacer un dossier ainsi que son contenu en ajoutant la récursion en option :
+### **_1.3.6.5. Vim_**  
+Vim est un des éditeurs de texte les plus respectés au monde. Comme il passe uniquement par le terminal, il se marie extrêmement bien avec cet outil. Et comme vim utilise exclusivement le clavier, ses raccourcis permettent d'aller extrêmement vite, pour qui ose grimper la très dure courbe d'apprentissage (quelques semaines à plein temps). De ce fait, je te montrerai vim pour ta culture générale, mais te demanderai de passer par un autre éditeur de texte   
+______________________________________________________________
+$ vim nomdufichier  
+______________________________________________________________
 
-$ rm -r nomdudossier
-?? INSTANT CULTURE GÉ
-rm est à l'origine d'une blague vieille comme le monde. En effet, ajouter l'option -f permet de forcer la suppression d'un fichier, même s'il est important pour l'ordinateur, et finir par / ou * dit à votre ordinateur de prendre absolument tous les fichiers. Ainsi, si tu tapes $ rm -rf / ou $ rm -rf * dans ton terminal, tu dis à ce dernier de tout prendre et de tout effacer, en forçant. Et figure toi que rm est très rapide, et donc effacera l'intégralité de ton ordinateur en quelques secondes à peine. À ne jamais jamais jamais faire donc.
+Permet d'ouvrir vim sur le fichier nomdufichier et de l'éditer. Pour quitter vim, il faut rentrer :q!.  
 
-1.3.6.5. Vim
-Vim est un des éditeurs de texte les plus respectés au monde. Comme il passe uniquement par le terminal, il se marie extrêmement bien avec cet outil. Et comme vim utilise exclusivement le clavier, ses raccourcis permettent d'aller extrêmement vite, pour qui ose grimper la très dure courbe d'apprentissage (quelques semaines à plein temps). De ce fait, je te montrerai vim pour ta culture générale, mais te demanderai de passer par un autre éditeur de texte ??
-
-$ vim nomdufichier
-Permet d'ouvrir vim sur le fichier nomdufichier et de l'éditer. Pour quitter vim, il faut rentrer :q!.
-
-1.3.7. Autres astuces
+### **_1.3.7. Autres astuces_**    
 CTRL + C annule la fonction en cours. Pratique quand on a une boucle infinie.
 
 La casse est très importante, idem pour les espaces.
 
 Il y a des raccourcis pratiques, par exemple CTRL + U efface la ligne en cours.
 
-Les touches du haut et du bas permettent de naviguer dans l'historique des commandes. Très pratique pour par exemple re-éxécuter une commande que tu viens de faire.
+Les touches du haut et du bas permettent de naviguer dans l'historique des commandes. Très pratique pour par exemple re-éxécuter une commande que tu viens de faire.  
 
-1.4. Les points importants
+## **1.4. Les points importants**
 Voici les points à retenir de la ressource :
 
-Pour lancer le terminal sur Linux : CTRL + ALT + T ; pour le lancer sur macOS : CMD + SPACE, puis écrire Terminal (ou iTerm), Enter.
-man est le manuel est permet de lancer la manuel des fonctions
-pwd affiche le dossier dans lequel tu es actuellement.
-ls est une commande qui affiche les fichiers et dossiers qu'il y a dans mon dossier actuel
-la notion de géographie est fondamentale : le terminal n'arrivera pas à ouvrir les fichiers s'il ne se trouve pas dans le bon dossier
-cd permet de changer de dossier
-touch permet de créer un fichier
-cp permet de copier un fichier
-mv permet de déplacer un fichier ou un dossier
-rm permet de supprimer un fichier
-1.5. Aller plus loin
-Voici un excellent cours express pour avoir quelques base sur le terminal. Il est un peu similaire au mien, mais aborde d'autres sujets intéressants tels que le PATH.
+- Pour lancer le terminal sur Linux : CTRL + ALT + T ; pour le lancer sur macOS : CMD + SPACE, puis écrire Terminal (ou iTerm), Enter.
+- man est le manuel est permet de lancer la manuel des fonctions
+- pwd affiche le dossier dans lequel tu es actuellement.
+- ls est une commande qui affiche les fichiers et dossiers qu'il y a dans mon dossier actuel
+- la notion de géographie est fondamentale : le terminal n'arrivera pas à ouvrir les fichiers s'il ne se trouve pas dans le bon dossier
+- cd permet de changer de dossier
+- touch permet de créer un fichier
+- cp permet de copier un fichier
+- mv permet de déplacer un fichier ou un dossier
+- rm permet de supprimer un fichier
+## **1.5. Aller plus loin**
+Voici un excellent [cours express](https://www.vikingcodeschool.com/web-development-basics/a-command-line-crash-course) pour avoir quelques base sur le terminal. Il est un peu similaire au mien, mais aborde d'autres sujets intéressants tels que le PATH.  
 
-Viking Code School ont aussi fait un cours sur le pimp de terminal pour avoir plein de couleurs de BGs sur le tien.
+Viking Code School ont aussi fait un [cours sur le pimp de terminal](https://www.vikingcodeschool.com/web-development-basics/a-command-line-crash-course) pour avoir plein de couleurs de BGs sur le tien.  
 
-Michael Hartl a fait une célèbre introduction au terminal nommée Learn Enough Command Line to Be Dangerous. Cette ressource permet d'aller assez loin en détails dans le terminal.
+Michael Hartl a fait une célèbre introduction au terminal nommée [Learn Enough Command Line to Be Dangerous.](https://www.learnenough.com/command-line-tutorial) Cette ressource permet d'aller assez loin en détails dans le terminal.  
 
-Pour ceux qui veulent découvrir Vim, voici une marche à suivre pour être champion de Vim rapidement.
+Pour ceux qui veulent découvrir Vim, voici [une marche à suivre](https://medium.com/actualize-network/how-to-learn-vim-a-four-week-plan-cd8b376a9b85) pour être champion de Vim rapidement.  
