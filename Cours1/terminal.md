@@ -32,7 +32,7 @@ Le terminal est un outil intimidant aux premiers abords, mais au final se révèle
 Sur Linux : CTRL + ALT + T
 Sur macOS : CMD + SPACE, puis écrire Terminal (ou iTerm), Enter.
 
-<span style="color:blue">?? ALERTE BONNE ASTUCE</span>
+<span style="color:#fb4141">?? ALERTE BONNE ASTUCE</span>
 Si tu utilises Linux, passe ton terminal en anglais. Quand ce dernier te renverra une erreur, c'est bien mieux qu'elle soit en anglais. L'anglais et la langue d'internet, donc la majorité des gens qui ont eu ton problème vont le poster en anglais. Et ainsi tu auras 100 fois plus de résultats sur Google que si tu postais ton erreur en français.
 
 1.3.3. Premières fonctions ?
