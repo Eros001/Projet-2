@@ -33,24 +33,24 @@ Ensuite, tu peux suivre le cours de Marc Gauthier jusqu'à la partie [Récupére
 ### 2.4.1. Les commandes pratiques  
 Voici un récap des commandes de base :  
 
-$ git init : il faut TOUJOURS commencer par initialiser git avec cette commande. Avec cette commande, le répertoire courant est considéré comme un repository git  
-$ git add [fichier] : ajoute aux sauvegardes le fichier mentionné. Protip : si tu as plusieurs fichiers à ajouter, tu peux utiliser $ git add . qui ajoute au repository tous les fichiers du dossier  
-$ git commit -m [commentaire] : créé un commit (commit = sauvegarde suivie d'un commentaire).  
-$ git status : te dit le status actuel de git.  
+- $ git init : il faut TOUJOURS commencer par initialiser git avec cette commande. Avec cette commande, le répertoire courant est considéré comme un repository git  
+- $ git add [fichier] : ajoute aux sauvegardes le fichier mentionné. Protip : si tu as plusieurs fichiers à ajouter, tu peux utiliser $ git add . qui ajoute au repository tous les fichiers du dossier  
+- $ git commit -m [commentaire] : créé un commit (commit = sauvegarde suivie d'un commentaire).  
+- $ git status : te dit le status actuel de git.  
 2.4.2. Lire l'historique  
-$ git log : permet de voir l'historique et de voir tous les commits. Les commits sont rangés avec :  
+- $ git log : permet de voir l'historique et de voir tous les commits. Les commits sont rangés avec :  
 
-SHA : liste de chiffres et lettres qui indentifient de façon unique le commit.  
-Auteur  
-Date  
-Message donné durant le commit : avec ce message, tu vas comprendre ce que faisait le commit. C'est pour cela qu'il est important d'avoir un bon nom.  
+- SHA : liste de chiffres et lettres qui indentifient de façon unique le commit.  
+- Auteur  
+- Date  
+- Message donné durant le commit : avec ce message, tu vas comprendre ce que faisait le commit. C'est pour cela qu'il est important d'avoir un bon nom.  
 Pour quitter le log, il faut appuyer sur Q.  
 
 ### 2.4.3. Se positionner sur un commit donné  
 Imaginons que veut vérifier un truc sur un vieux commit. On va utiliser la commande $ git checkout, utilisée comme ceci :  
 
-$ git checkout : on dit à git de se positionner sur ce sha précis.  
-$ git checkout master : une fois que l'on a fini de se balader, il faut revenir à la version présente de notre repository avec cette commande  
+- $ git checkout : on dit à git de se positionner sur ce sha précis.  
+- $ git checkout master : une fois que l'on a fini de se balader, il faut revenir à la version présente de notre repository avec cette commande  
 ⚠️ **ALERTE ERREUR COMMUNE**
 $ git checkout ne marche que si tu n'as pas de modification non sauvegardée. Si tu es entre deux commits, git checkout ne marchera pas. Du coup il te faudra soit faire une sauvegarde (== faire un commit), soit effacer tout pour revenir au commit d'avant.  
 
@@ -80,10 +80,10 @@ Si ce n'est pas fait, va créer un compte sur [GitHub](https://github.com/), pui
 
 Au moment de la création, GitHub te demandera :  
 
-le Repository name : donne-lui un nom du genre git-thp  
-une description, optionnelle : laisse-la vide  
-s'il sera public ou privé : public (sauf si tu as envie d'upgrade ton compte et le rendre privé)
-si tu veux initialize with a README : non, nous allons l'ajouter à la main  
+- le Repository name : donne-lui un nom du genre git-thp  
+- une description, optionnelle : laisse-la vide  
+- s'il sera public ou privé : public (sauf si tu as envie d'upgrade ton compte et le rendre privé)
+- si tu veux initialize with a README : non, nous allons l'ajouter à la main  
 📚 **INSTANT CULTURE GÉ**  
 Un README est un fichier que l'on retrouve toujours dans un repository Git. Il permet à une personne qui débarque sur le projet de mieux le comprendre, de voir comment il marche, d'avoir une documentation exhaustive. Par exemple, tu peux voir ici la page de React JS, un framework de JavaScript, avec son README qui explique ce que fait React JS. Dans ce premier dossier, le README sera juste un texte pour dire que c'est un projet d'introduction à GitHub, Git, et le terminal.  
 
