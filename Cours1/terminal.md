@@ -23,7 +23,7 @@ En gros, c'est une version texte de l'explorateur de fichiers : on peut ouvrir d
 
 ## **1.3. Le terminal**  
 ### **_1.3.1._** Qu'est-ce que le terminal ?
-Le terminal est un outil intimidant aux premiers abords, mais au final se révèle pas compliqué. J'ai réalisé une vidéo qui explique le terminal : [Introduction au terminal](https://www.youtube.com/watch?v=myz_6xrDwR4)
+Le terminal est un outil intimidant aux premiers abords, mais au final se révèle pas compliqué. J'ai réalisé une vidéo qui explique le terminal : [Introduction au terminal][![Alt text](https://img.youtube.com/vi/VID/0.jpg)[](https://www.youtube.com/watch?v=myz_6xrDwR4)
 
 
 
