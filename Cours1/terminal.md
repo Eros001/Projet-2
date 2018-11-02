@@ -31,7 +31,7 @@ Le terminal est un outil intimidant aux premiers abords, mais au final se révè
 Sur Linux : CTRL + ALT + T
 Sur macOS : CMD + SPACE, puis écrire Terminal (ou iTerm), Enter.
 
-**ALERTE BONNE ASTUCE**    
+🚀**ALERTE BONNE ASTUCE**    
 Si tu utilises Linux, passe ton terminal en anglais. Quand ce dernier te renverra une erreur, c'est bien mieux qu'elle soit en anglais. L'anglais et la langue d'internet, donc la majorité des gens qui ont eu ton problème vont le poster en anglais. Et ainsi tu auras 100 fois plus de résultats sur Google que si tu postais ton erreur en français.
 
 ### **_1.3.3. Premières fonctions ?_**
@@ -41,8 +41,8 @@ $ echo "Hello world !"
 ______________________________________________________________
 (je commence toutes les commande du terminal avec un $, c'est une convention, et c'est plus facile à reconnaitre comme ceci)
 
-Si tu exécutes cette commande le terminal devrait te renvoyer Hello world ! ([cette phrase est un grand classique de la programmation](https://fr.wikipedia.org/wiki/Hello_world)). Et là, tu viens d'exécuter ta première commande de terminal ??
-Maintenant nous allons voir les premières commandes de base.
+Si tu exécutes cette commande le terminal devrait te renvoyer Hello world ! ([cette phrase est un grand classique de la programmation](https://fr.wikipedia.org/wiki/Hello_world)). Et là, tu viens d'exécuter ta première commande de terminal 🎉
+Maintenant nous allons voir les premières commandes de base.  
 
 ### **_1.3.3.1. PWD_**
 pwd est l'acronyme de Print Working Directory, une commande qui affiche le dossier dans lequel tu es actuellement.
@@ -55,8 +55,8 @@ ______________________________________________________________
 ______________________________________________________________
 C'est comme dans l'explorateur en GUI, quand tu double-cliques sur felix, il te déplace dans le dossier felix qui est dans le dossier Users.
 
-**ALERTE BONNE ASTUCE**    
-pwd est généralement la première commande que l'on tappe quand on arrive dans le terminal de quelqu'un : c'est idéal pour s'y retrouver 
+🚀**ALERTE BONNE ASTUCE**    
+pwd est généralement la première commande que l'on tappe quand on arrive dans le terminal de quelqu'un : c'est idéal pour s'y retrouver ✌️   
 
 ### **_1.3.3.2. LS_**
 ls est le diminutif pour list, cette fonction affiche les fichiers et dossiers qu'il y a dans mon dossier actuel.
@@ -80,19 +80,19 @@ ______________________________________________________________
 Ce qui m'ouvrira son manuel, qui je peux quitter à tout moment en tapant q.
 
 ### **_1.3.4._** Où sommes-nous ?
-Une notion **fondamentale** pour le terminal : la notion de géographie. Comme dans l'explorateur en GUI, on se déplace de dossiers en dossiers dans le terminal. Si jamais tu veux ouvrir un fichier en tappant open file.txt (sur macOS) ou xdg-open file.txt (sur Linux) et que tu ne te trouves pas dans le bon dossier, le terminal te renverra une erreur. Un peu comme si tu essayais de double-cliquer sur file.txt dans le mauvais dossier : impossible car il n'y est pas.  
+Une notion **fondamentale** pour le terminal : la notion de géographie. Comme dans l'explorateur en GUI, on se déplace de dossiers en dossiers dans le terminal. Si jamais tu veux ouvrir un fichier en tappant open file.txt (sur macOS) ou xdg-open file.txt (sur Linux) et que tu ne te trouves pas dans le bon dossier, le terminal te renverra une erreur. Un peu comme si tu essayais de double-cliquer sur file.txt dans le mauvais dossier : impossible car il n'y est pas.   
 
 Tu vas devoir te déplacer donc de dossiers en dossiers pour ouvrir et intéragir avec les bons fichiers.  
 
 ### **_1.3.5. CD_**  
-cd est l'acronyme de Change Directory, qui te permet de naviguer entre dossiers. L'équivalent d'un double-clic sur un dossier en quelque sorte  
+cd est l'acronyme de Change Directory, qui te permet de naviguer entre dossiers. L'équivalent d'un double-clic sur un dossier en quelque sorte 😁  
 ______________________________________________________________
 $ cd nomdudossier
 ______________________________________________________________
 Tu te déplaceras dans le dossier nommé nomdudossier (s'il existe dans le dossier dans lequel tu te trouves).  
 Tu peux aussi te déplacer vers le dossier parent en faisant $ cd ..  
 
-**ALERTE BONNE ASTUCE** 
+🚀**ALERTE BONNE ASTUCE** 
 Utiliser la touche TAB permet de faire de l'autocompletion, très pratique pour cette méthode. Aussi, faire cd + [ESPACE] + TAB + TAB affiche les dossiers disponibles.
 
 ### **_1.3.6. Autres fonctions_**  
@@ -127,11 +127,11 @@ ______________________________________________________________
 $ rm -r nomdudossier  
 ______________________________________________________________
 
-**INSTANT CULTURE GÉ**  
+📚**INSTANT CULTURE GÉ**  
 rm est à l'origine d'une blague vieille comme le monde. En effet, ajouter l'option -f permet de forcer la suppression d'un fichier, même s'il est important pour l'ordinateur, et finir par / ou * dit à votre ordinateur de prendre absolument tous les fichiers. Ainsi, si tu tapes $ rm -rf / ou $ rm -rf * dans ton terminal, tu dis à ce dernier de tout prendre et de tout effacer, en forçant. Et figure toi que rm est très rapide, et donc effacera l'intégralité de ton ordinateur en quelques secondes à peine. **À ne jamais jamais jamais faire** donc.
 
 ### **_1.3.6.5. Vim_**  
-Vim est un des éditeurs de texte les plus respectés au monde. Comme il passe uniquement par le terminal, il se marie extrêmement bien avec cet outil. Et comme vim utilise exclusivement le clavier, ses raccourcis permettent d'aller extrêmement vite, pour qui ose grimper la très dure courbe d'apprentissage (quelques semaines à plein temps). De ce fait, je te montrerai vim pour ta culture générale, mais te demanderai de passer par un autre éditeur de texte   
+Vim est un des éditeurs de texte les plus respectés au monde. Comme il passe uniquement par le terminal, il se marie extrêmement bien avec cet outil. Et comme vim utilise exclusivement le clavier, ses raccourcis permettent d'aller extrêmement vite, pour qui ose grimper la très dure courbe d'apprentissage (quelques semaines à plein temps). De ce fait, je te montrerai vim pour ta culture générale, mais te demanderai de passer par un autre éditeur de texte 😉      
 ______________________________________________________________
 $ vim nomdufichier  
 ______________________________________________________________
